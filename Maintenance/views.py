@@ -7,6 +7,5 @@ def home(request):
 
 def about(request):
     return HttpResponse("This is the about page of MyApp. Learn more about us here.")
-
 def contact(request):
         return render(request,'contact.html')
